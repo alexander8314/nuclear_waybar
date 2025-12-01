@@ -1,11 +1,16 @@
 {
     "layer": "top",
     "position": "right",
-    "width": 150,
-    "modules-left": ["custom/reactor-core"],
+    "width": 200,
+    "modules-left": ["custom/reactor-core", "cpu"],
 
     "custom/reactor-core": {
         "format": "⚛",
         "tooltip": "REACTOR CORE"
+    },
+
+    "cpu": {
+        "format": "CPU\n{usage}%",
+        "interval": 2
     }
 }

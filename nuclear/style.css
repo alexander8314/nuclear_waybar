@@ -25,3 +25,15 @@ window#waybar {
     box-shadow: 0 0 40px rgba(0, 212, 255, 0.8), inset 0 0 30px rgba(0, 150, 255, 0.3);
     text-shadow: 0 0 20px #00d4ff;
 }
+
+#cpu {
+    color: #00d4ff;
+    font-size: 14px;
+    padding: 12px 8px;
+    margin: 8px 10px;
+    border: 2px solid rgba(0, 212, 255, 0.4);
+    border-radius: 10px;
+    background: rgba(0, 30, 60, 0.7);
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+    text-shadow: 0 0 8px #00d4ff;
+}
