@@ -2,7 +2,13 @@
     "layer": "top",
     "position": "right",
     "width": 200,
-    "modules-left": ["custom/reactor-core", "cpu"],
+    "modules-left": ["custom/reactor-core", 
+                        "cpu", 
+                        "memory", 
+                        "disk", 
+                        "temperature", 
+                        "custom/process-monitor"
+                    ],
 
     "custom/reactor-core": {
         "format": "⚛",
