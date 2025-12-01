@@ -32,16 +32,9 @@
     },
 
     "temperature": {
-        "format": "{icon}\n{temperatureC}°",
+        "format": "🌡\n{temperatureC}°C\n{temperatureF}°F\n{temperatureK}°K",
         "format-icons": ["❄", "🌡", "🔥"],
         "critical-threshold": 80,
         "interval": 5
-    },
-
-    "custom/process-monitor": {
-        "format": "{}",
-        "return-type": "json",
-        "exec": "~/.config/waybar/scripts/process-monitor.sh",
-        "interval": 3
     }
 }
