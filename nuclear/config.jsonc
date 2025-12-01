@@ -32,7 +32,7 @@
     },
 
     "temperature": {
-        "format": "        🌡\n{temperatureC}°C   {temperatureF}°F   {temperatureK}°K",
+        "format": "  Temperature 🌡\n{temperatureC}°C   {temperatureF}°F   {temperatureK}°K",
         "format-icons": ["❄", "🌡", "🔥"],
         "critical-threshold": 80,
         "interval": 5
