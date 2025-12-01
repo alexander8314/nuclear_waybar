@@ -12,5 +12,30 @@
     "cpu": {
         "format": "CPU\n{usage}%",
         "interval": 2
+    },
+
+    "memory": {
+        "format": "RAM\n{percentage}%",
+        "interval": 2
+    },
+
+    "disk": {
+        "format": "DISK\n{percentage_used}%",
+        "path": "/",
+        "interval": 30
+    },
+
+    "temperature": {
+        "format": "{icon}\n{temperatureC}°",
+        "format-icons": ["❄", "🌡", "🔥"],
+        "critical-threshold": 80,
+        "interval": 5
+    },
+
+    "custom/process-monitor": {
+        "format": "{}",
+        "return-type": "json",
+        "exec": "~/.config/waybar/scripts/process-monitor.sh",
+        "interval": 3
     }
 }
