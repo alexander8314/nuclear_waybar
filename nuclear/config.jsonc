@@ -1,0 +1,11 @@
+{
+    "layer": "top",
+    "position": "right",
+    "width": 150,
+    "modules-left": ["custom/reactor-core"],
+
+    "custom/reactor-core": {
+        "format": "⚛",
+        "tooltip": "REACTOR CORE"
+    }
+}
